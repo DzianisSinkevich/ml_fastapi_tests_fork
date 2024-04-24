@@ -1,7 +1,8 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Header
 from transformers import pipeline
 from pydantic import BaseModel
 from getrate import getrate
+from typing import Annotated
 
 
 class Item(BaseModel):
