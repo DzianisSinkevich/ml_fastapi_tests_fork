@@ -4,3 +4,5 @@ uvicorn
 transformers
 torch
 httpx
+pandas
+lxml
